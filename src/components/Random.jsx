@@ -1,9 +1,7 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Spinner } from './Spinner';
 import useGif from '../hooks/useGif';
 
-const API_KEY = process.env.REACT_APP_GIPHY_API_KEY;
 
 export const Random = () => {
 
